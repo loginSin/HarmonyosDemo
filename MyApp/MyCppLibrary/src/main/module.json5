@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "MyCppLibrary",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "MyCppLibraryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "MyCppLibraryAbility",
+        "srcEntry": "./ets/mycpplibraryability/MyCppLibraryAbility.ts",
+        "description": "$string:MyCppLibraryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:MyCppLibraryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "libmycpplibrary.so",
+  "types": "./index.d.ts",
+  "version": "",
+  "description": "Please describe the basic information."
+}

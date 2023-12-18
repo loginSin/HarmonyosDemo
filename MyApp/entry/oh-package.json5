@@ -1,0 +1,12 @@
+{
+  "name": "MyApp",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/libmycpplibrary.so": "file:../MyCppLibrary/src/main/cpp/types/libmycpplibrary"
+  }
+}

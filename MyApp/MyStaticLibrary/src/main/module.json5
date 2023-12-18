@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "MyStaticLibrary",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}
